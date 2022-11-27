@@ -1,0 +1,35 @@
+﻿Build started 2011-08-14 오전 12:01:02.
+     1>Project "C:\Users\Sungwook Baek\Documents\Daum 클라우드\[학사] 한국산업기술대학교\졸업작품\KPU_FHMIPv6\KPU_FHMIPv6.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\KPU_FHMIPv6.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\KPU_FHMIPv6.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\KPU_FHMIPv6.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Furthest.cpp KPU_FHMIPv6.cpp KPU_FHMIPv6Dlg.cpp
+         KPU_FHMIPv6Dlg.cpp
+         KPU_FHMIPv6.cpp
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\kpu_fhmipv6.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : see declaration of 'CWinApp::Enable3dControls'
+         Furthest.cpp
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(72): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(77): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(79): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(81): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sungwook baek\documents\daum 클라우드\[학사] 한국산업기술대학교\졸업작품\kpu_fhmipv6\furthest.cpp(69): warning C4101: 'num_line' : unreferenced local variable
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0412" /nologo /fo".\Debug\KPU_FHMIPv6.res" KPU_FHMIPv6.rc 
+         
+     1>KPU_FHMIPv6.rc(168): error RC2135: file not found: CS2_AutoplayIntro.avi
+         
+     1>Done Building Project "C:\Users\Sungwook Baek\Documents\Daum 클라우드\[학사] 한국산업기술대학교\졸업작품\KPU_FHMIPv6\KPU_FHMIPv6.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.73
